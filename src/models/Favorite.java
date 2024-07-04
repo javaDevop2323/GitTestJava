@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Favorite {
     private Long id;
-    private User user;
+    private User userId;
     private List<Announcement> announcements = new ArrayList<>();
 
     public Favorite() {
@@ -13,7 +13,7 @@ public class Favorite {
 
     public Favorite(Long id, User user, List<Announcement> announcements) {
         this.id = id;
-        this.user = user;
+        this.userId = user;
         this.announcements = announcements;
     }
 
@@ -25,12 +25,12 @@ public class Favorite {
         this.id = id;
     }
 
-    public User getUser() {
-        return user;
+    public User getUserId() {
+        return userId;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setUserId(User userId) {
+        this.userId = userId;
     }
 
     public List<Announcement> getAnnouncements() {
