@@ -50,7 +50,7 @@ public class Announcement {
 
     @Override
     public String toString() {
-        return "Announcement{" +
+        return "AnnouncementDao{" +
                 "id=" + id +
                 ", description='" + description + '\'' +
                 ", price=" + price +
